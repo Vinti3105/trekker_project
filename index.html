@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treker - Home 01</title>
+
+  <link rel="icon" type="image/svg" href="assets/logo-icon.svg">
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .scnd-hd {
+      width: 100%;
+    }
+
+    @media (min-width:576px) and (max-width:767px) {
+      .scnd-hd {
+        width: fit-content;
+      }
+    }
+
+
+    @media (min-width:768px) and (max-width:991px) {
+      .scnd-hd {
+        width: fit-content;
+      }
+    }
+
+    @media (min-width:992px) and (max-width:1199px) {
+      .scnd-hd {
+        width: fit-content;
+      }
+    }
+
+    @media (min-width:1200px) and (max-width:1399px) {
+      .scnd-hd {
+        width: fit-content;
+      }
+    }
+
+    @media (min-width:1400px) {
+      .scnd-hd {
+        width: fit-content;
+      }
+    }
+
+    .cards-sec {
+      background-image: url(assets/images/image-1.jpg);
+      height: 130vh;
+      width: 100%;
+    }
+    .left{
+      background-image: url(assets/images/2.png);
+      background-repeat: no-repeat;
+    }
+    .left img{
+      padding-left: 25vw;
+    }
+    .main-text{
+      padding-left: 10vw;
+    }
+    .main-text h4{
+      font-size: 2vw;
+      margin-top: 1vw;
+    }
+    .text{
+      margin-top: 2vw;
+    }
+    .text ul li{
+      text-decoration: none;
+      background-color: aqua;
+    }
+    .image1{
+      margin-top: 2vw;
+      padding: 0.5vw;
+    }
+
+    .seventh{
+      background-image: url(assets/images/image-2.jpg);
+      height: 30vw;
+      width: 100%;
+      margin-top: 10vw;
+    }
+    .review-card{
+            height: 17vw;
+            width: 20vw;
+            border: 1px solid #1DC5CE;
+            border-radius: 10px;
+            position: relative;
+    }
+    
+    .subscribe{
+      background-image: url(assets/images/newsletter-bg.png);
+      height: 30vw;
+      width: 60%; 
+      margin-top: 14vw;
+      border-radius: 0.7vw;
+      margin-left: 19vw;
+    }
+  </style>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- sub-navbar start -->
+  <div class="container-fluid px-0">
+    <div class="d-flex bg-info justify-content-between px-3" style="color: #fff">
+      <div class="d-none d-sm-flex p-2 gap-5 px-3">
+        <p class="sub-nav"><i class="ri-mail-fill"></i>&nbsp;INFO@TREKER.COM</p>
+        <p class="sub-nav"><i class="ri-phone-line"></i>&nbsp;+11256326501</p>
+      </div>
+      <div class="d-flex p-2 gap-5 scnd-hd">
+        <p class="sub-nav"><i class="ri-earth-line"></i>&nbsp;ENG
+          <i class="ri-arrow-drop-down-line"></i>
+        </p>
+        <p class="sub-nav"><i class="ri-user-fill"></i>&nbsp;SIGN IN</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- sub-nav end -->
+
+  <!-- navbar start  -->
+
+  <div class="container-fluid px-0">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="https://themeim.com/demo/treker/images/logo.svg" alt=""></a>
+            <!-- right-part -->
+            <div class="d-flex d-lg-none align-items-center gap-3">
+                <div>
+                    <img src="asset/images/search.png" alt="">
+                </div>
+                <div>
+                    <img src="asset/images/heart.png" alt="">
+                </div>
+                <div class="p-3" style="background-color: #eaf6f6;">
+                    <img src="asset/images/cart.png" alt=""><span>00 Items</span>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 fw-medium fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">DESTINATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">TREKKING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">PAGES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- right-part -->
+            <div class="d-none d-lg-flex align-items-center gap-3">
+                <div>
+                    <img src="assets/images/search-line.png" alt="">
+                </div>
+                <div>
+                    <img src="assets/images/heart-3-line.png" alt="">
+                </div>
+                <div class="p-3" style="background-color: #eaf6f6;">
+                    <img src="assets/images/shopping-cart-2-line.png" alt=""><span>&nbsp;00 Items&nbsp; |&nbsp; $00:00</span>
+                </div>
+            </div>
+        </nav></div>
+  <!-- navbar end -->
+
+  <!-- 1st page start -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="first shadow-4">
+          <h2 class="fw-bold" style="margin-top: 15vh; font-size: 5vw;">Never stop</h2>
+          <h1 class="fw-bold" style="font-size: 8vw;">Exploring</h1>
+          <p class="fs-5">Their house is a museum where people come to see ‘em. They really are a scream the Addams
+            Family. These days are all Happy and Free. These days are all share them with me oh baby.</p>
+        </div>
+
+        <button type="button" class="btn btn-outline-info mt-4" disabled>View All Tours
+          <img src="assets/logo-icon.svg" alt="">
+        </button>
+        <img src="assets/video-icon-1.svg" alt="" class="p-5 mt-3">
+      </div>
+
+      <div class="col-lg-6 d-none d-lg-block"><img src="assets/banner.svg" class="img-fluid" alt=""></div>
+    </div>
+
+    <div class="vacant" style="margin-top: 14vw;"></div>
+  </div>
+
+  <!-- 1st page end  -->
+
+  <!-- 2nd page start  -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="left img-fluid">
+          <img src="assets/images/1.png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-5">
+        <div class="main-text">
+          <h4>About Treker</h4>
+        <h1 style="font-size: 3vw; margin-top: 1vw; font-weight: bold;">World Best Travel <br> Agency</h1>
+ 
+        <h6 style="margin-top: 3vw; font-weight: normal;">Since 2014, we’ve helped more than 500,000 people of all ages enjoy the best outdoor experience of their
+          lives. Whether it’s for one day or a two-week vacation, close to home or a foreign land.</h6>
+
+
+        <div class="text fs-5"> 
+          <p><i class="ri-checkbox-circle-fill"></i> &nbsp;Ratione voluptatem.sequi nesciunt.</p>
+          <p><i class="ri-checkbox-circle-fill"></i> &nbsp;Ratione voluptatem.</p>
+          <p><i class="ri-checkbox-circle-fill"></i> &nbsp;Ratione voluptatem sequi.</p>
+          <iframe class="video" width="130" height="100" style="margin-left: 19vw;"
+            src="https://www.youtube.com/embed/3PBXZi6mNEE?si=NmSBgEgmAxSJz3WN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 2nd page end  -->
+
+  <!-- 3rd page start -->
+
+  <div class="container-fluid cards-sec">
+    <h3 class="text-center fs-3 fw-bold" style="padding-top: 7vw; margin-top: 8vw;">Modern And Beautiful</h3>
+    <h1 class="text-center fw-bold mt-4" style="font-size: 3vw;">Our Most Popular <br> Trekking</h1>
+
+    <div class="row" style="margin-left: 18vw;">
+      <div class="col-sm-3">
+        <div class="card p-3 mt-5" style="width: 19vw;">
+          <img src="assets/images/f-image-1.jpg" class="card-img-top" alt="..." height="">
+          <div class="card-body">
+            <h5 class="card-title fs-2 fw-bold">Moscow Red City Land</h5>
+            <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+              class="ri-star-fill"></i><i class="ri-star-line"></i>
+            <span>05 review</span>
+
+            <p class="card-text">Richly varied landscapes, luxuries accomodation and a wide range of wild experience
+              await you</p>
+              <p>----------------------------------------------</p>
+            <div class="last">
+              <p>View Details <img src="assets/logo-icon.svg" alt=""></p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card p-3 mt-5" style="width: 19vw;">
+          <img src="assets/images/f-image-2.jpg" class="card-img-top" alt="..." height="">
+          <div class="card-body">
+            <h5 class="card-title fs-2 fw-bold">Moscow Red City Land</h5>
+            <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+              class="ri-star-fill"></i><i class="ri-star-line"></i>
+            <span>05 review</span>
+
+            <p class="card-text">Richly varied landscapes, luxuries accomodation and a wide range of wild experience
+              await you</p>
+              <p>----------------------------------------------</p>
+            <div class="last">
+              <p>View Details <img src="assets/logo-icon.svg" alt=""></p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card p-3 mt-5" style="width: 19vw;">
+          <img src="assets/images/f-image-3.jpg" class="card-img-top" alt="..." height="">
+          <div class="card-body">
+            <h5 class="card-title fs-2 fw-bold">Moscow Red City Land</h5>
+            <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+              class="ri-star-fill"></i><i class="ri-star-line"></i>
+            <span>05 review</span>
+
+            <p class="card-text">Richly varied landscapes, luxuries accomodation and a wide range of wild experience
+              await you</p>
+              <p>----------------------------------------------</p>
+            <div class="last">
+              <p>View Details <img src="assets/logo-icon.svg" alt=""></p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- 3rd page end  -->
+  
+  <!-- 4th page start -->
+   <div class="container text-center">
+    <h4 style="margin-top: 7vw;">We Are Awesome</h4>
+      <h1 class="fw-bold mt-5" style="font-size: 3vw;">Why Choose Treker</h1>
+    <div class="row mt-5">
+
+<div class="col-sm-1"></div>
+
+      <div class="col-sm-3">
+        <img src="assets/icon-1.svg" alt="" class="image1 p-3">
+        <h3>Diverse Destinations</h3>
+        <h6>Richly varied landscapes, luxury accommodation Travel.</h6>
+        <img src="assets/icon-2.svg" alt="" class="image1">
+        <h3>Value for Money</h3>
+        <h6>Richly varied landscapes, luxury accommodation Travel.</h6>
+        <img src="assets/icon-3.svg" alt="" class="image1">
+        <h3>Beautiful Places</h3>
+        <h6>Richly varied landscapes, luxury accommodation Travel.</h6>
+      </div>
+
+      <div class="col-sm-4 mt-5">
+        <img src="assets/why-image-1.svg" alt="">
+      </div>
+
+<div class="col-sm-1"></div>
+
+      <div class="col-sm-3">
+        <img src="assets/icon-4.svg" alt="" class="image1">
+        <h3 class="first">Fast Booking</h3>
+        <h6>Richly varied landscapes, luxury accommodation Travel.</h6>
+        <img src="assets/icon-5.svg" alt="" class="image1">
+        <h3>Support Team</h3>
+        <h6>Richly varied landscapes, luxury accommodation Travel.</h6>
+        <img src="assets/icon-6.svg" alt="" class="image1">
+        <h3>Passionate Travel</h3>
+        <h6>Richly varied landscapes, luxury accommodation Travel.</h6>
+      </div>
+    </div>
+   </div>
+
+    <!-- 4th page end  -->
+
+    <!-- 5th page start  -->
+     <div class="container text-center">
+      <h4 style="margin-top: 13vw;">Top Destinations</h4>
+      <h1 class="fw-bold mt-5" style="font-size: 3vw;">Trending Destinations</h1>
+
+
+      <div class="row" style="margin-top: 5vw;">
+        <div class="col-sm-8">
+          <img src="assets/images/gallery-1.jpg" alt="" style="margin-left: 4vw; border-radius: 0.5vw;">
+        </div>
+        <div class="col-sm-4">
+          <img src="assets/images/gallery-2.jpg" alt="" style="border-radius: 0.5vw;">
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-6">
+          <img src="assets/images/gallery-3.jpg" alt="" style="margin-left: 4vw; border-radius: 0.5vw;">
+        </div>
+        <div class="col-sm-6">
+          <img src="assets/images/gallery-4.jpg" alt="" style="margin-left: 1.3vw; border-radius: 0.5vw;">
+        </div>
+      </div>
+
+
+      <div class="row mt-5">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="assets/images/gallery-5.jpg" alt="" style="margin-left: 4vw; border-radius: 0.5vw;">
+          </div>
+          <div class="col-sm-8">
+            <img src="assets/images/gallery-6.jpg" alt="" style="margin-left: 3vw; border-radius: 0.5vw;">
+          </div>
+        </div>
+      </div>
+
+     </div>
+
+     <!-- 5th page end  -->
+
+
+     <!-- 6th page start  -->
+     <div class="container text-center">
+      <h4 style="margin-top: 14vw;">Shop Now</h4>
+      <h1 class="fw-bold mt-5" style="font-size: 3vw;">Featured Trekking Products</h1>
+
+
+      <div class="row" style="margin-top: 8vw;">
+        <div class="col-sm-3">
+          <img src="assets/images/prod-1.jpg" alt="">
+          <p style="font-size: 1vw;">Smart Air Bag Travel</p>
+          <p>$ 225.00</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="assets/images/prod-2.jpg" alt="">
+          <p style="font-size: 1vw;">Travel Suitcase Bag</p>
+          <p>$ 225.00</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="assets/images/prod-3.jpg" alt="">
+          <p style="font-size: 1vw;">Travel Light Suitcase</p>
+          <p>$ 225.00</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="assets/images/prod-4.jpg" alt="">
+          <p style="font-size: 1vw;">Smart Travel Gadgets</p>
+          <p>$ 225.00</p>
+        </div>
+      </div>
+    
+
+      
+      <div class="row" style="margin-top: 2vw;">
+        <div class="col-sm-3">
+          <img src="assets/images/prod-5.jpg" alt="">
+          <p style="font-size: 1vw;">Set of Black Silk Pillow</p>
+          <p>$ 225.00</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="assets/images/prod-6.jpg" alt="">
+          <p style="font-size: 1vw;">Travel Sleeping Support</p>
+          <p>$ 225.00</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="assets/images/prod-7.jpg" alt="">
+          <p style="font-size: 1vw;">Travel Light Suitcase</p>
+          <p>$ 225.00</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="assets/images/prod-8.jpg" alt="">
+          <p style="font-size: 1vw;">Smart Travel Gadgets</p>
+          <p>$ 225.00</p>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-outline-info mt-5" disabled>View All Products
+        <img src="assets/logo-icon.svg" alt="">
+      </button>
+    </div>
+    <!-- 6th page end  -->
+
+    <!-- 7th page start  -->
+     
+    <div class="container-fluid seventh">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+
+          </div>
+        </div>
+        <div class="col-sm-6"></div>
+      </div>
+
+    </div>
+
+     <!-- 7th page end  -->
+      <!-- 8th page start  -->
+
+      <div class="container text-center" style="margin-top: 10vw;">
+        <h5>Reviews And Testinomials</h5>
+        <h1 class="fw-bold mt-5" style="font-size: 3vw;">Top Reviews For Treker</h1>
+      
+       <div class="d-flex align-items-center justify-content-between pt-5" style="margin-top: 10vw;">
+        <div class="review-card ps-3">
+            <div>
+                <img src="assets/quotes-1.svg" alt="" class="pt-5 ps-4">
+            </div>
+            <div style="position: absolute; top: -2vw; left: 14vw;">
+                <img src="assets/images/testi-thumb-1.jpg" alt="" style="border-radius: 60px;">
+            </div>
+            <div class="ps-3 pt-5" style="font-weight: 500;">
+                <p>Fight School has specialized in <br> martial arts since 1986 and has one <br> of the most Fight school has <br> specialized
+                </p>
+                <i> <b>Randall Schwartz</b></i>
+                <p style="font-weight: 500;" class="pt-2">
+                    Womens Trainer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="assets/images/star golden.png" alt="">
+                <img src="assets/images/star golden.png" alt="">
+                <img src="assets/images/star golden.png" alt="">
+                <img src="assets/images/star golden.png" alt="">
+                <img src="assets/images/star golden.png" alt="">
+                </p> 
+            </div>
+        </div>
+        <div class="review-card ps-3">
+            <div>
+                <img src="assets/quotes-1.svg" alt="" class="pt-5 ps-4">
+            </div>
+            <div style="position: absolute; top: -2vw; left: 14vw;">
+                <img src="assets/images/testi-thumb-2.jpg" alt="" style="border-radius: 60px;">
+            </div>
+            <div class="ps-3 pt-5" style="font-weight: 500;">
+                <p>Fight School has specialized in <br> martial arts since 1986 and has one <br> of the most Fight school has <br> specialized
+                </p>
+                <i> <b>Randall Schwartz</b></i>
+                <p style="font-weight: 500;" class="pt-2">
+                    Womens Trainer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="assets/images/star golden.png" alt="">
+                <img src="assets/images/star golden.png" alt="">
+                <img src="assets/images/star golden.png" alt="">
+                <img src="assets/images/star golden.png" alt="">
+                <img src="assets/images/star golden.png" alt="">
+                </p> 
+            </div>
+        </div>
+        <div class="review-card ps-3">
+            <div>
+                <img src="assets/quotes-1.svg" alt="" class="pt-5 ps-4">
+            </div>
+            <div style="position: absolute; top: -2vw; left: 14vw;">
+                <img src="assets/images/testi-thumb-1.jpg" alt="" style="border-radius: 60px;">
+            </div>
+            <div class="ps-3 pt-5" style="font-weight: 500;">
+                <p>Fight School has specialized in <br> martial arts since 1986 and has one <br> of the most Fight school has <br> specialized
+                </p>
+                <i> <b>Randall Schwartz</b></i>
+                <p style="font-weight: 500;" class="pt-2">
+                    Womens Trainer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="assets/images/star golden.png" alt="">
+                <img src="assets/images/star golden.png" alt="">
+                <img src="assets/images/star golden.png" alt="">
+                <img src="assets/images/star golden.png" alt="">
+                <img src="assets/images/star golden.png" alt="">
+                </p> 
+            </div>
+        </div>
+     </div>
+    </div>
+    
+       <!-- 8th page end  -->
+
+       <!-- 9th page start  -->
+
+       <div class="container">
+        <div class="row" style="margin-top: 15vw; margin-left: 4vw;">
+          <div class="col-sm-3">
+            <img src="assets/images/sponsor-1.png" alt="">
+          </div>
+          <div class="col-sm-3"> 
+            <img src="assets/images/sponsor-2.png" alt="">
+          </div>
+          <div class="col-sm-3">
+            <img src="assets/images/sponsor-3.png" alt="">
+          </div>
+          <div class="col-sm-3">
+            <img src="assets/images/sponsor-4.png" alt="">
+          </div>
+        </div>
+       </div>
+
+       <!-- 9th page end  -->
+
+       <!-- 10th page start  -->
+
+       <div class="container text-center">
+
+        <p><h4 style="margin-top: 13vw;">Treker Top News</h4></p>
+        <p><h1 class="fw-bold mt-5" style="font-size: 3vw;">Treker Latest News</h1></p>
+
+        <div class="row" style="margin-top: 4vw;">
+          <div class="col-sm-4" style="position: relative;">
+            <button type="button" class="btn btn-info" style="position: absolute; top: 1vw; left: 2.7vw;">Trekking</button>
+            <img src="assets/images/news-1.jpg" alt="" style="border-radius: 0.7vw;">
+          </div>
+          <div class="col-sm-4" style="border: 1px solid #1DC5CE; border-radius: 0.7vw; width: 20vw;">
+            <div class="box">
+              <p><h6>By : Sword Joy&nbsp; | &nbsp;20 March 2022</h6></p>
+              <p class="fw-bold mt-5"><h3>THE BEST BOXERS IN THEIR WEIGH TARGET CATEGOR</h3></p>
+              <p class="mt-5"><h6>Fight School has specialized in martial arts since 1986 and has one of the most innovative.</h6></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <img src="assets/images/news-2.jpg" alt="" style="border-radius: 0.7vw">
+          </div>
+        </div>
+
+
+        <div class="row mt-5">
+            <div class="col-sm-4" style="border: 1px solid #1DC5CE; border-radius: 0.7vw; width: 20vw; margin-left: 2vw;">
+              <div class="box">
+                <p><h6>By : Sword Joy&nbsp; | &nbsp;20 March 2022</h6></p>
+                <p class="mt-5 fw-bold"><h3>THE UPCOMING WBC CHAMP SHIPS 2022 in feb</h3></p>
+                <p class="mt-5"><h6>Fight School has specialized in martial arts since 1986 and has one of the most innovative.</h6></p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <img src="assets/images/news-3.jpg" alt="" style="border-radius: 0.7vw;">
+            </div>
+            <div class="col-sm-4" style="border: 1px solid #1DC5CE; border-radius: 0.7vw; width: 20vw;">
+              <div class="box">
+                <p><h6>By : Sword Joy&nbsp; | &nbsp;20 March 2022</h6></p>
+                <p class="mt-5 fw-bold"><h3>EFFECTIVE STRATEGIES & TIPS FROM THE BEST</h3></p>
+                <p class="mt-5"><h6>Fight School has specialized in martial arts since 1986 and has one of the most innovative.</h6></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10th page end  -->
+         <!-- 11th page start  -->
+          <div class="container subscribe bg-info">
+            <div class="row">
+              <div class="col-sm-6" style="margin-top: 3vw;">
+                <img src="assets/newsletter-image.svg" alt="" height="500vh">
+              </div>
+              <div class="col-sm-6" style="margin-top: 10vw; color: #fff;">
+                <h5 style="font-size: 1.5vw;">Newsletter</h5>
+                <h1 style="font-size: 3vw; font-weight: bold;">Subscribe Now</h1>
+                <h6 style="margin-top: 1.5vw;">Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.</h6>
+                <div class="white-box">
+                  <form style="position: relative;">
+                  <input type="email address" placeholder=" Email-Address" style="height: 4vw; margin-top: 3vw; width: 90%; border: 1px solid #fff; border-radius: 10px;" class="p-2">
+                  <button type="button" class="btn btn-info" style="position: absolute; left: 23.5vw; top: 3.5vw; color: #fff; font-weight: 500; height: 3vw;">Subscribe</button>
+                </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- 11th page end  -->
+        <!-- 12th page start  -->
+
+        <!-- footer start -->
+        <div class="footer container px-5" style="margin-top: 10vw;">
+          <div class="d-flex align-items-center justify-content-between">
+              <div class="f1">
+                  <div class="pb-4">
+                      <img src="https://themeim.com/demo/treker/images/logo.svg" alt="">
+                  </div>
+                  <p style="color: #959697;">
+                      Treker was founded in 1991 by a group of <br> safety-focused professionals who created <br> The Wingman Standard for rigorously vetting <br> air charter operators.
+                  </p>
+              </div>
+              <div class="f2">
+                  <h5 class="pb-4">EUROPE</h5>
+                  <p style="color: #959697;">Europe 45 Gloucester <br> Road London DT1M 3BF <br>
+                      +44 (0)20 3671 5709</p>
+              </div>
+              <div class="f3">
+                  <h5 class="pb-4">ASIA & PACIFIC</h5>
+                  <p style="color: #959697;">2473 Red Road Ste 98 <br> Singapore SG <br>
+                      + 1 623 211 6319</p>
+              </div>
+              <div class="f4">
+                  <h5 class="pb-4">NORTH AMERICA</h5>
+                  <p style="color: #959697;">Europe 45 Gloucester <br> Road London DT1M 3BF <br>
+                      +44 (0)20 3671 5709</p>
+              </div>
+          </div>
+       </div>
+       <div style="margin: 5vw; "></div>
+       <div class="footer-2 container-fluid py-5 d-flex align-items-center justify-content-center" style="background-image: url(assets/f-bottom-bg.svg);">
+          <div style="height: 355px; width: 1170px; border: 1px solid white;" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+              <div class="p-4 d-flex align-items-center justify-content-between">
+                  <div>
+                      <div>
+                          <h6 style="font-weight: 600; padding-left: 1.7vw; padding-bottom: 1vw;">About Us</h6>
+                      </div>
+                      <div class="links">
+                          <ul style="list-style: none; line-height: 1.5vw; color: #7D7D7D; font-weight: 400;">
+                              <li>About Us</li>
+                              <li>Community blog</li>
+                              <li>Rewards</li>
+                              <li> Work With Us</li>
+                              <li>Contact</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div>
+                      <div>
+                          <h6 style="font-weight: 600; padding-left: 1.7vw; padding-bottom: 1vw;">Explore Trekker</h6>
+                      </div>
+                      <div class="links">
+                          <ul style="list-style: none; line-height: 1.5vw; color: #7D7D7D; font-weight: 400;">
+                              <li>Account</li>
+                              <li>Privacy Policy</li>
+                              <li>Affiliate</li>
+                              <li> Program</li>
+                              <li>Our Partner</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div>
+                      <div>
+                          <h6 style="font-weight: 600; padding-left: 1.7vw; padding-bottom: 1vw;">Quick Links</h6>
+                      </div>
+                      <div class="links">
+                          <ul style="list-style: none; line-height: 1.5vw; color: #7D7D7D; font-weight: 400;">
+                              <li>About Us</li>
+                              <li>News & Press</li>
+                              <li>Blogs</li>
+                              <li> FAQs</li>
+                              <li>Careers</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div>
+                      <div>
+                          <h6 style="font-weight: 600; padding-left: 1.7vw; padding-bottom: 1vw;">Gallery</h6>
+                      </div>
+                      <div class="footer-images">
+                          <div>
+                              <img src="assets/images/footer-thumb-1.jpg" alt="" style="padding: .2vw; border-radius: 5px;">
+                              <img src="assets/images/footer-thumb-2.jpg" alt="" style="padding: .2vw; border-radius: 5px;">
+                              <img src="assets/images/footer-thumb-3.jpg" alt="" style="padding: .2vw; border-radius: 5px;">
+                          </div>
+                          <div>
+                              <img src="assets/images/footer-thumb-4.jpg" alt="" style="padding: .2vw; border-radius: 5px;">
+                              <img src="assets/images/footer-thumb-5.jpg" alt="" style="padding: .2vw; border-radius: 5px;">
+                              <img src="assets/images/footer-thumb-6.jpg" alt="" style="padding: .2vw; border-radius: 5px;">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+       </div>
+       <!-- footer-end -->
+        <!-- 12th page end  -->
+       
+
+</body
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
